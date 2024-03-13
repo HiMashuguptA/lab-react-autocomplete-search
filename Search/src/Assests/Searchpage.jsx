@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import data from "../Assests/countryData.json"
 function Searchpage() {
-    var Data = data
     console.log(Data.name);
     const [value, setvalue] = useState("")
     const [Escape, setEscape] = useState(true)
